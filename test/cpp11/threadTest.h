@@ -21,8 +21,8 @@ void fun1(){
 void test7() {
   std::shared_ptr<Logger> logger = std::make_shared<Logger>("ThreadTest::test7()");
 
-  std::thread th(fun1);
-  th.detach();
+  std::thread th_1(fun1);
+  th_1.detach();
 
   logger->Info("hello world...");
 
