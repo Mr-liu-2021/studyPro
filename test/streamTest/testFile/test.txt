@@ -1,0 +1,4 @@
+hello world!!!
+3c
+3.1459
+string length 1000!
