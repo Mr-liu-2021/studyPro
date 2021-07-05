@@ -92,7 +92,6 @@ int main() {
    * test thread
    */
    test7();
-   cout<<"hello world"<<endl;
 
 
 
