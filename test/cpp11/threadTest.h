@@ -25,6 +25,7 @@ void test7() {
   th_1.detach();
 
   logger->Info("hello world...");
+  logger->Info("xxx");
 
 }
 
