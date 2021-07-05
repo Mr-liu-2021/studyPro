@@ -92,7 +92,7 @@ int main() {
    * test thread
    */
    test7();
-   cout<<"sdbhfc"<<endl;
+
 
 
 
