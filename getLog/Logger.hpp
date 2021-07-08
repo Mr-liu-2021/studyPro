@@ -73,13 +73,13 @@ public:
 
   template<class ...Types>
   void Info(const Types &... args) {
-    strContent << TimeTool::currentTimeFormat() << "|" << m_funName << "| INFO|";
+    strContent << TimeTool::currentTimeFormat() << "|" << m_funName << "|INFO|";
     outToLog(args...);
   }
 
   template<class ...Types>
   void Warn(const Types &... args) {
-    strContent << TimeTool::currentTimeFormat() << "|" << m_funName << "| WARN|";
+    strContent << TimeTool::currentTimeFormat() << "|" << m_funName << "|WARN|";
     outToLog(args...);
   }
 
